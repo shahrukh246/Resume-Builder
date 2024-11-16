@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.detail{
+    flex: 1;
+    padding: 20px;
+    overflow: auto;
+}
+
+.detail::-webkit-scrollbar{
+    display: none;
+}
+
+.personal_detail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    height: 180px;
+    overflow: hidden;
+}
+
+label{
+    font-size: 14px;
+}
+
+.input_field input{
+    height: 50px;
+    width: 300px;
+    background-color: aliceblue;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    position: relative;
+}
+
+#hide_btn{
+    color: aquamarine;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.resume_display{
+    flex: 1;
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate{
+    position: absolute;
+    bottom: 20px;
+    z-index: 999;
+    right: 20px;
+}
+
+.generate button{
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.display_cv{
+    height: 100%;
+    width: 70%;
+    background-color: #F7F7F7;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.personal_info_section{
+    flex: 1;
+    border-right: 1px solid #bbb8b8;
+    max-width: 140px;
+    padding: 0 10px;
+}
+
+.sections{
+    margin-top: 5px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.summary_inputs textarea{
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    background-color: #EFF2F9;
+    border: none;
+    outline: none;
+}
+
+.summary_inputs label{
+    font-size: 14px;
+}
+
+.summary_section{
+    flex: 2.5;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
